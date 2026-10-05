@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pandora Keele | Portfolio</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.7;
+            background: #f4f6f8;
+            color: #333;
+        }
+
+        /* Header */
+
+        header {
+            background: #202938;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 20px;
+            color: #d9dee5;
+        }
+
+        /* Navigation */
+
+        nav {
+            background: white;
+            text-align: center;
+            padding: 18px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+
+        nav a {
+            color: #202938;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #3b82f6;
+        }
+
+        /* Sections */
+
+        section {
+            max-width: 900px;
+            margin: 45px auto;
+            padding: 40px;
+            background: white;
+            border-radius: 14px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.07);
+        }
+
+        section h2 {
+            font-size: 30px;
+            color: #202938;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #3b82f6;
+            padding-bottom: 8px;
+        }
+
+        section h3 {
+            color: #202938;
+            margin-bottom: 10px;
+        }
+
+        /* Resume Button */
+
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 22px;
+            background: #3b82f6;
+            color: white;
+            text-decoration: none;
+            border-radius: 7px;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #2563eb;
+        }
+
+        /* Projects */
+
+        .project {
+            padding: 20px;
+            margin-top: 20px;
+            border-left: 5px solid #3b82f6;
+            background: #f8fafc;
+            border-radius: 5px;
+        }
+
+        /* Skills */
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skill {
+            background: #e8eef7;
+            padding: 9px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        /* Links */
+
+        a {
+            color: #2563eb;
+        }
+
+        /* Footer */
+
+        footer {
+            text-align: center;
+            background: #202938;
+            color: white;
+            padding: 30px;
+            margin-top: 60px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <h1>Pandora Keele</h1>
+
+        <p>
+            Student | Data Analysis | Sports Analytics
+        </p>
+
+    </header>
+
+
+    <!-- NAVIGATION -->
+
+    <nav>
+
+        <a href="#about">About</a>
+
+        <a href="#resume">Resume</a>
+
+        <a href="#thesis">Future Thesis</a>
+
+        <a href="#projects">Projects</a>
+
+        <a href="#skills">Skills</a>
+
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+
+    <!-- ABOUT -->
+
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            Welcome to my academic portfolio. I am a student interested
+            in data analysis, programming, and using data to better
+            understand real-world problems. I am especially interested
+            in applying data analysis to sports and performance.
+        </p>
+
+    </section>
+
+
+    <!-- RESUME -->
+
+    <section id="resume">
+
+        <h2>Resume</h2>
+
+        <p>
+            My resume provides an overview of my education,
+            experience, skills, and accomplishments.
+        </p>
+
+        <a class="button" href="resume.pdf">
+            View My Resume
+        </a>
+
+    </section>
+
+
+    <!-- FUTURE THESIS -->
+
+    <section id="thesis">
+
+        <h2>Future Thesis</h2>
+
+        <div class="project">
+
+            <h3>Volleyball Data Analysis</h3>
+
+            <p>
+                My future thesis will focus on analyzing volleyball
+                data using R and RStudio. I plan to use data
+                visualization and statistical analysis to explore
+                patterns and trends in volleyball performance.
+            </p>
+
+            <p style="margin-top: 15px;">
+
+                This project combines my interest in volleyball
+                with data analysis and programming. I will use
+                tools such as R, RStudio, and Plotly to explore
+                and visualize the data.
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- OTHER PROJECT -->
+
+    <section id="projects">
+
+        <h2>Current & Future Projects</h2>
+
+        <div class="project">
+
+            <h3>SQL Data Analysis</h3>
+
+            <p>
+                I am developing my SQL skills through coursework
+                involving databases and data analysis. My work
+                includes using queries, joins, grouping, filtering,
+                and aggregate functions to organize and analyze
+                information.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- SKILLS -->
+
+    <section id="skills">
+
+        <h2>Skills</h2>
+
+        <div class="skills">
+
+            <span class="skill">R</span>
+
+            <span class="skill">RStudio</span>
+
+            <span class="skill">SQL</span>
+
+            <span class="skill">Plotly</span>
+
+            <span class="skill">Data Visualization</span>
+
+            <span class="skill">GitHub</span>
+
+            <span class="skill">Microsoft Office</span>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section id="contact">
+
+        <h2>Contact</h2>
+
+        <p>
+            Email:
+            <strong>YOUR EMAIL HERE</strong>
+        </p>
+
+        <p style="margin-top: 10px;">
+
+            GitHub:
+            <a href="https://github.com/pkeele">
+                github.com/pkeele
+            </a>
+
+        </p>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            © 2026 Pandora Keele | Academic Portfolio
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
